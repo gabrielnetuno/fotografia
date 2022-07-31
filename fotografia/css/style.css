@@ -139,16 +139,29 @@ header p{
 
 }
 
-#contato{
+#contato {
     display: flex;
-    flex-direction: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#contato div{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    margin-top: 15px;
 }
 
 #contato h2{
+    text-align: center;
     color: #000000;
+}
+
+#contato p a{
+    color: #191970;
+    text-decoration: none;
 }
 
 footer{
@@ -156,7 +169,6 @@ footer{
     padding: 10px;
     background-color: #191970;
     color: #ffffff;
-
 }
 
 footer a{
@@ -230,7 +242,12 @@ footer a{
         margin: 0 auto;
 
     }
+
     #contato h2, #contato p{
-        width: 100%;
+        width: 10%;
+    }
+
+    #contato img{
+       text-align: center;
     }
 }
